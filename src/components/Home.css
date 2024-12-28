@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  /* Navbar Styles */
+  .navbar-custom {
+    background-color: #1db954;
+  }

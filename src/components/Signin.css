@@ -1,0 +1,65 @@
+body {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #333; /* Lighter shade of black */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  max-width: 400px;
+  margin: 2rem auto;
+  color: #fff; /* White text */
+}
+
+.logo-container {
+  margin-bottom: 1rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.login-form p {
+  margin: 0.5rem 0 0.2rem 0; /* Adjust margins to position the text right above the input */
+  text-align: left; /* Align text to the left */
+}
+
+.login-form input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #555; /* Slightly lighter border */
+  border-radius: 4px;
+  background-color: #444; /* Lighter shade of black */
+  color: #fff; /* White text */
+}
+
+.login-form button {
+  padding: 0.5rem;
+  background-color: #1DB954; /* Spotify green */
+  color: #fff;
+  border: none;
+  border-radius: 30px; /* More curved button */
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #1aa34a; /* Darker green on hover */
+}
+
+a {
+  color: #1DB954; /* Spotify green */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
